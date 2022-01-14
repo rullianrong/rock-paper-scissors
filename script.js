@@ -46,7 +46,7 @@ function game() {
         console.log("User: " + userScore);
         console.log("Computer: " + computerScore + "\n**********");
     }
-    return (userScore == 5 ? "CONGRATULATIONS! YOU WON THE GAME!" : "SORRY, YOU LOSE.")
+    return (userScore == 5 ? "CONGRATULATIONS! YOU WON THE GAME!" : "SORRY, YOU LOSE.");
 }
 
 console.log(game());
