@@ -2,13 +2,19 @@
 //string based on the generated number this works as the
 //engine of the computer/opponent
 function computerPlay() {
+
     let numGenerator = Math.floor(Math.random() * 3);
 
     if (numGenerator === 0) {
+
         return "rock";
+
     } else if (numGenerator === 1) {
+
         return "paper";
+
     } else {
+
         return "scissors";
     }
 }
