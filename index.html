@@ -6,16 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <title>Rock, Paper, Scissors</title>
 </head>
 
 <body>
+    <h1>Rock, Paper, Scissors</h1>
     <div class="container">
-        <h1>Rock, Paper, Scissors</h1>
-        <p>This is a game in progress and you can only play it using the browser's console (for now). </p>
-        <p>To play the game just press "F12" and reload the page by pressing "F5".</p>
+        <p>CHOOSE YOUR WEAPON</p>
+        <div class="btn-container">
+            <button id="rock" class="button">Rock</button>
+            <button id="paper" class="button">Paper</button>
+            <button id="scissors" class="button">Scissors</button>
+        </div>
+        <div class="result-container">
+            <div class="results">
+                <h3>You</h3>
+                <p id="user-score">0</p>
+            </div>
+            <div class="results">
+                <h3>Computer</h3>
+                <p id="comp-score">0</p>
+            </div>
+        </div>
+        <div class="results win">
+            <p id="computer-choice"></p>
+            <p id="result"></p>
+        </div>
     </div>
-    <script src="./script.js"></script>
 </body>
 
 </html>
